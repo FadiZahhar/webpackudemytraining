@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const {BundleAnalyzerPlugin} = require("webpack-bundle-analyzer");
 
 module.exports = {
   entry: {
@@ -48,6 +49,9 @@ module.exports = {
             to: path.resolve(__dirname,"dist"),
             context: "src",
         }]
+    }),
+    new BundleAnalyzerPlugin({
+        
     })
   ]
 };
