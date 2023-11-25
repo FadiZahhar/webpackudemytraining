@@ -1,0 +1,31 @@
+{
+  "name": "webpackudemytraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FadiZahhar/webpackudemytraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FadiZahhar/webpackudemytraining/issues"
+  },
+  "homepage": "https://github.com/FadiZahhar/webpackudemytraining#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "loadash": "^1.0.0",
+    "toastr": "^2.1.4",
+    "typed.js": "^2.1.0",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
