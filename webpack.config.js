@@ -50,8 +50,11 @@ module.exports = {
             context: "src",
         }]
     }),
-    new BundleAnalyzerPlugin({
-        
-    })
-  ]
+   // new BundleAnalyzerPlugin({}),
+  ],
+  optimization:{
+    splitChunks:{
+        chunks:"all",
+    }
+  }
 };
